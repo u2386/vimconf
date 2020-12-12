@@ -380,7 +380,6 @@ let NERDTreeRespectWildIgnore=1
 "
 " ludovicchabant/vim-gutentags
 "
-let g:gutentags_ctags_exclude = ['.git', 'tmp/*', 'log/*', 'coverage/*', 'doc/*']
 let g:gutentags_cache_dir = '~/.cache/tags'
 let g:gutentags_ctags_extra_args = [
       \ '--tag-relative=yes',
