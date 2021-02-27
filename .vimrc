@@ -371,8 +371,8 @@ autocmd StdinReadPre * let s:std_in=1
 map <silent> <Leader>b :NERDTreeToggle<CR>
 map <silent> <Leader>F :NERDTreeFind<CR>
 map <silent> <Leader>T :NERDTreeFocus<CR>
-let NERDTreeIgnore = ['\.pyc$', '__pycache__', '.vscode', '.git', 'tags', 'tags.lock']
-let NERDTreeShowHidden = 1
+let NERDTreeIgnore = ['\.pyc$', '__pycache__', '.vscode', '.git$', 'tags', 'tags.lock']
+let NERDTreeShowHidden=1
 let NERDTreeShowLineNumbers=0
 let NERDTreeRespectWildIgnore=1
 
