@@ -37,6 +37,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'w0rp/ale'
 Plugin 'lepture/vim-jinja'
 Plugin 'ambv/black'
+Plugin 'Yggdroot/indentLine'
 
 " fzf
 Plugin 'junegunn/fzf.vim'
