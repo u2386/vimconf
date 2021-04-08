@@ -101,7 +101,7 @@ set undolevels=1000         " How many undos
 set undoreload=10000        " number of lines to save for undo
 set cursorline
 set list
-set listchars=tab:▸\ ,trail:·,precedes:←,extends:→
+set listchars=trail:·,precedes:←,extends:→
 set expandtab smarttab shiftwidth=4 tabstop=4
 if &diff
     colorscheme industry
